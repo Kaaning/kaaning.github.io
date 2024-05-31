@@ -40613,7 +40613,7 @@ var _OutroComponent = class _OutroComponent {
     ];
     this.displayMode = "text";
     this.showLamp = false;
-    this.currentStep$ = new BehaviorSubject(13);
+    this.currentStep$ = new BehaviorSubject(0);
     this.toDisplay$ = new BehaviorSubject("");
     this.answerControl = new FormControl("", { nonNullable: true });
     this.ambientSound = new Howl({ src: "assets/sounds/outro-ambiance.mp3", loop: true });
@@ -40808,7 +40808,7 @@ function AppComponent_Case_7_Template(rf, ctx) {
 }
 var _AppComponent = class _AppComponent {
   constructor() {
-    this.step = "outro";
+    this.step = "home";
     this.karaokeEvaluation = false;
     this.debugSequence = "1223334444";
     this.sequence = "";
